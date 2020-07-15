@@ -31,7 +31,7 @@ console.log(Number(x));
 function multiply (num1,num2){
     return (num1 * num2);
 }
-console.log (multiply(num1,num2));
+console.log (multiply(7,7));
 
 
 
@@ -97,7 +97,7 @@ console.log(dogFeeder(15, 1));
 function generateComputerHand(){
   let hands = {0:"rock", 1:"paper", 2:"scissors"};
   let randomIndex = Math.floor(Math.random() * 3); //a random index is either 0, 1 or 2
-  let computerHand = hands[randomIndex]; //this will produce wither rock, paper or scissors
+  let computerHand = hands[randomIndex]; //this will produce either rock, paper or scissors
   return computerHand
 }
 
